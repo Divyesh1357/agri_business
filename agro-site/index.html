@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>એગ્રી બિઝનેસ સેન્ટર | Agri Business Center</title>
+  <meta name="description" content="એગ્રી બિઝનેસ સેન્ટર – હા. બીજ, જંતુનાશક દવાઓ અને રસાયણિક ખાતર. કપાસ, રામત, મકાઈ, ટમેટા અને શાકભાજી માટે નિષ્ણાત સલાહ. કડવાલ, જેટપુર‑પાવી, છોટાઉદેપુર." />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@400;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --pri:#0f9d58;--sec:#198754;--acc:#ffc107;--bg:#f7faf9;--ink:#1b1f24;--mut:#6b7280;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--bg);color:var(--ink);font-family:"Inter","Noto Sans Gujarati",system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    a{color:var(--pri);text-decoration:none}
+    img{max-width:100%;height:auto;}
+    .wrap{max-width:1100px;margin:auto;padding:16px}
+    header.hero{position:relative;overflow:hidden;border-bottom:1px solid #e5e7eb;background:linear-gradient(180deg,#e8fff3,transparent)}
+    .brand{display:flex;align-items:center;gap:16px}
+    .logo{width:64px;height:64px;border-radius:16px;object-fit:cover;border:3px solid #fff;box-shadow:0 8px 30px rgba(0,0,0,.08)}
+    h1{font-size:clamp(24px,4vw,40px);margin:6px 0 0 0;line-height:1.2}
+    .subtitle{color:var(--mut);margin-top:6px}
+    .cta-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:12px 16px;border-radius:14px;border:1px solid #d1d5db;background:#fff;box-shadow:0 8px 20px rgba(16,185,129,.08);font-weight:600}
+    .btn.primary{background:var(--pri);color:#fff;border-color:transparent}
+    .grid{display:grid;gap:18px}
+    .grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+    @media (max-width:900px){.grid.cols-3{grid-template-columns:1fr 1fr}}
+    @media (max-width:640px){.grid.cols-3{grid-template-columns:1fr}}
+    .card{background:#fff;border:1px solid #e5e7eb;border-radius:18px;padding:18px;box-shadow:0 10px 30px rgba(0,0,0,.05)}
+    h2{font-size:clamp(20px,3vw,28px);margin:4px 0 10px}
+    ul{margin:0;padding-left:18px}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:#eefbf3;color:#0a7a45;font-weight:600;font-size:12px;border:1px solid #c7eedb}
+    footer{margin-top:30px;padding:24px 0;border-top:1px solid #e5e7eb;color:#4b5563}
+    .lang{display:flex;gap:10px;align-items:center}
+    .topbar{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:10px 0}
+    .gallery{display:grid;gap:10px;grid-template-columns:repeat(4,1fr)}
+    @media(max-width:900px){.gallery{grid-template-columns:repeat(3,1fr)}}
+    @media(max-width:640px){.gallery{grid-template-columns:repeat(2,1fr)}}
+    .gallery img{border-radius:14px;border:1px solid #e5e7eb}
+
+    .og{display:none}
+  </style>
+  <!-- Open Graph -->
+  <meta property="og:title" content="એગ્રી બિઝનેસ સેન્ટર – Agri Business Center" />
+  <meta property="og:description" content="HA seeds, pesticides, chemical fertilizers and crop advisory in Kadval, Jetpur‑Pavi, Chhota Udepur." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/card.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <!-- LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "Agri Business Center",
+    "image": ["assets/card.jpg"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Kaldal Chowkdi, Bajaril Road, Kadval",
+      "addressLocality": "Jetpur‑Pavi",
+      "addressRegion": "Gujarat",
+      "postalCode": "",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 22.3,
+      "longitude": 74.1
+    },
+    "url": "https://example.com/",
+    "telephone": "+91-8160841265",
+    "areaServed": "Chhota Udepur district",
+    "sameAs": []
+  }
+  </script>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="topbar">
+        <div class="brand">
+          <!-- Replace assets/card.jpg with your logo/photo -->
+          <img class="logo" src="assets/card.jpg" alt="Agri Business Center" />
+          <div>
+            <h1>એગ્રી બિઝનેસ સેન્ટર</h1>
+            <div class="subtitle">Gujarat Agro Industries Corporation Ltd. દ્વારા માન્ય • Seeds • Pesticides • Chemical Fertilizers</div>
+          </div>
+        </div>
+        <div class="lang">
+          <button class="btn" onclick="setLang('gu')">ગુજરાતી</button>
+          <button class="btn" onclick="setLang('en')">English</button>
+        </div>
+      </div>
+      <div class="cta-row">
+        <a class="btn primary" id="callBtn" href="tel:+9188XXXXXXX0">Call Now</a>
+        <a class="btn" id="waBtn" target="_blank" rel="noopener" href="https://wa.me/9188XXXXXXX0?text=Namaste%20Agri%20Business%20Center">WhatsApp</a>
+        <a class="btn" target="_blank" rel="noopener" href="#map">Get Directions</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="grid cols-3" style="margin-top:18px">
+      <div class="card">
+        <span class="badge">અમારી સેવાઓ</span>
+        <h2>Seeds • Pesticides • Fertilizers</h2>
+        <ul>
+          <li>સરકાર માન્ય હા. બીજ</li>
+          <li>જંતુનાશક દવાઓ (દરેક પ્રકાર)</li>
+          <li>રસાયણિક ખાતર અને પાક પોષણ</li>
+          <li>Vapor chamber cooling? → <strong>Crop advisory</strong> (cotton, maize, tomato & vegetables)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <span class="badge">વિશેષ પાક</span>
+        <h2>કપાસ, રામત, મકાઈ, ટમેટા, શાકભાજી</h2>
+        <p>અમે પાક મુજબ દવાઓ/ખાતરની યોગ્ય માત્રા અને સમયની માર્ગદર્શિકા આપીએ છીએ. Pest scouting, dose calculator અને spray schedule માટે ફોન કરો.</p>
+      </div>
+      <div class="card">
+        <span class="badge">સમ્પર્ક</span>
+        <h2>Bhagvatsinh (Bodli) – માલિક</h2>
+        <p><strong>મોબાઇલ:</strong> +91 88XXXXXXX0<br/>
+           <strong>સરનામું:</strong> ઠે. કળદાલ ચોખડી, બાજરીલ રોડ, મૂ. કડવાલ, તા. જેટપુર‑પાવી, જી. છોટાઉદેપુર
+        </p>
+        <p class="subtitle">(ફોન નંબર અને સરનામાંને તમે HTML માં સીધું એડિટ કરી શકો છો)</p>
+      </div>
+    </section>
+
+    <section style="margin-top:22px">
+      <div class="card">
+        <span class="badge">ગેલેરી</span>
+        <h2>Gallery</h2>
+        <div class="gallery">
+          <img src="assets/card.jpg" alt="Shop card" />
+          <img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=1200&q=60" alt="Cotton" />
+          <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1200&q=60" alt="Tomatoes" />
+          <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=60" alt="Maize" />
+        </div>
+      </div>
+    </section>
+
+    <section id="map" style="margin-top:22px">
+      <div class="card">
+        <span class="badge">સ્થાન</span>
+        <h2>How to reach</h2>
+        <p>Kaldal Chowkdi, Bajaril Road, Kadval, Tal. Jetpur‑Pavi, Dist. Chhota Udepur</p>
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:14px;border:1px solid #e5e7eb">
+          <iframe title="Map"
+            src="https://www.google.com/maps?q=Kadval%20Jetpur%20Pavi%20Chhota%20Udepur&output=embed"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div>© <span id="yr"></span> Agri Business Center • All rights reserved.</div>
+      <div style="margin-top:8px;font-size:14px">Made with ❤ • Update phone & WhatsApp in the top buttons.</div>
+    </div>
+  </footer>
+
+  <script>
+    // Language toggle (Gujarati/English minimal)
+    const strings = {
+      gu: {
+        call:"હવે કોલ કરો", wa:"વોટ્સએપ", dir:"દિશા", services:"અમારી સેવાઓ"
+      },
+      en: {
+        call:"Call Now", wa:"WhatsApp", dir:"Get Directions", services:"Our Services"
+      }
+    };
+    function setLang(k){
+      document.documentElement.lang = k;
+      const s = strings[k];
+      document.getElementById('callBtn').textContent = s.call;
+      document.getElementById('waBtn').textContent = s.wa;
+    }
+    document.getElementById('yr').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
